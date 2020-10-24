@@ -1,0 +1,16 @@
+
+.header-title {
+  text-shadow: 0 0 20px #fff, 0 0 5px #f00;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.header-logo {
+  margin-right: 15px;
+
+  & > img {
+    box-shadow: 0 0 5px 3px #fff, 0 0 10px 6px #c30331;
+    border-radius: 50%;
+    background: #fff
+  }
+}
