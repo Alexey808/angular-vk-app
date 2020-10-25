@@ -1,4 +1,19 @@
 <app-header></app-header>
 
-<app-content></app-content>
+<!--<app-content [user]="user"></app-content>-->
+
+<!--<ng-container *ngIf="user">-->
+<!--  <pre>{{user | json}}</pre>-->
+<!--  {{user.lastName}}-->
+<!--  {{user.firstName}}-->
+<!--  {{user.id}}-->
+<!--</ng-container>-->
+
+<!--<ng-container *ngIf="data">-->
+<!--  <pre>{{data | json}}</pre>-->
+<!--</ng-container>-->
+
+<ng-container *ngIf="event">
+  <pre>{{event | json}}</pre>
+</ng-container>
 
