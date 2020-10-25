@@ -1,13 +1,13 @@
 
-<div class="content-container">
+<div *ngIf="user" class="content-container">
   <mat-card>
 
-    <mat-card-title>User card</mat-card-title>
+    <mat-card-title>Пользователь</mat-card-title>
 
     <mat-card-content>
       <div fxLayout="column">
-        <span matLine>digital signature</span>
-        <span matLine>user name</span>
+        <span matLine>{{user.firstName}} {{user.lastName}}</span>
+        <span matLine>{{user.id}}</span>
       </div>
     </mat-card-content>
 
